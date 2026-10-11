@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Open TV Shell",
+  "version": "0.1.0",
+  "description": "Keys-only (arrows + select) navigation layer for Open TV.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["nav-core.js", "shell.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      { "id": "ua", "enabled": true, "path": "rules.json" }
+    ]
+  }
+}

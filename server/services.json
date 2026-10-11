@@ -1,0 +1,13 @@
+[
+  { "id": "youtube",  "name": "YouTube",     "url": "https://www.youtube.com/tv",       "color": "#e5352f", "mode": "tv-ui" },
+  { "id": "netflix",  "name": "Netflix",     "url": "https://www.netflix.com/",         "color": "#b0121c", "mode": "web", "drm": "widevine" },
+  { "id": "prime",    "name": "Prime Video", "url": "https://www.primevideo.com/",      "color": "#127fb8", "mode": "web", "drm": "widevine" },
+  { "id": "disney",   "name": "Disney+",     "url": "https://www.disneyplus.com/",      "color": "#1b3a8a", "mode": "web", "drm": "widevine" },
+  { "id": "hbo",      "name": "HBO Max",     "url": "https://play.hbomax.com/",         "color": "#5a2ea6", "mode": "web", "drm": "widevine" },
+  { "id": "hulu",     "name": "Hulu",        "url": "https://www.hulu.com/",            "color": "#139e63", "mode": "web", "drm": "widevine" },
+  { "id": "paramount","name": "Paramount+",  "url": "https://www.paramountplus.com/",   "color": "#1f5fe0", "mode": "web", "drm": "widevine" },
+  { "id": "peacock",  "name": "Peacock",     "url": "https://www.peacocktv.com/",       "color": "#333333", "mode": "web", "drm": "widevine" },
+  { "id": "appletv",  "name": "Apple TV",    "url": "https://tv.apple.com/",            "color": "#222222", "mode": "web", "drm": "fairplay-or-widevine" },
+  { "id": "plex",     "name": "Plex",        "url": "https://app.plex.tv/",             "color": "#c78a0b", "mode": "web" },
+  { "id": "twitch",   "name": "Twitch",      "url": "https://www.twitch.tv/",           "color": "#7c3fe0", "mode": "web" }
+]

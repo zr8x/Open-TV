@@ -1,0 +1,11 @@
+{
+  "name": "open-tv",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "demo": "node scripts/bundle-demo.js",
+    "test": "node --test test/nav-core.test.js && npm run demo && node test/shell-smoke.js && node test/osk-smoke.js"
+  },
+  "devDependencies": { "jsdom": "^26.0.0" }
+}

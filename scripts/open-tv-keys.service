@@ -1,0 +1,11 @@
+[Unit]
+Description=Open TV keys-only input filter
+After=systemd-udevd.service
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/open-tv/inputd/keys_only.py
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
